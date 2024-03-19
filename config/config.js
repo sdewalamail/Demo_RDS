@@ -21,5 +21,9 @@ module.exports = {
     redis: {
         host: process.env.REDIS_HOST,
         port: process.env.REDIS_PORT
-    }
+    },
+    secret:  process.env.SECRET,
+    jwt_secret:  process.env.JWT_SECRET,
+    default_per_page_record:  process.env.DEFAULT_PER_PAGE_RECORD,
+    max_no_of_files:  process.env.MAX_NO_OF_FILES,
 }

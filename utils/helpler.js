@@ -1,4 +1,4 @@
-const { default_per_page_record, whatsApp, secret, fb_cloud } = require('../config/config');
+const { default_per_page_record, secret} = require('../config/config');
 const APIError = require('./APIError');
 
 const path = require('path');

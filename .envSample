@@ -21,3 +21,14 @@ IS_DB_LOGGING=
 REDIS_HOST=
 REDIS_PORT=
 
+# Secret key for encryption and decryption string
+SECRET=
+
+# JWT SECRET KEY
+JWT_SECRET=
+
+# Pagination
+DEFAULT_PER_PAGE_RECORD=
+
+# Maximum file upload
+MAX_NO_OF_FILES=
