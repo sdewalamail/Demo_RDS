@@ -1,11 +1,12 @@
 const sequelize = require('./database');
-const initModels = require('./init-models');
+const initModels  = require('./init-models.js');
 const { is_db_logging } = require('../config/config');
 const { pagination, updateFingerprint, getRecordById } = require('../utils/dbHelper');
 
 /**
 * Initialize all models and pass sequelize connection object
 */
+
 const db = initModels(sequelize);
 
 /**

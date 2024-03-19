@@ -1,4 +1,4 @@
-const { excludeFields, paginate, removeFields } = require('../utils/helper');
+const { excludeFields, paginate, removeFields } = require('./helpler');
 const crypto = require('crypto');
 
 /**
@@ -22,7 +22,7 @@ exports.pagination = async function (queryParams, condition = {}, options = { de
     condition = options.defaultOrder ? { ...condition, limit, offset, order } : { ...condition, limit, offset };
 
     const rows = await MODEL.findAll(condition);
-    return { results: rows || [], pages: pageCount || 1, count: count.length || 0 };  
+    return { results: rows || [], pages: pageCount || 1, count: count.length || 0 };
 }
 
 /**

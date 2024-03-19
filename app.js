@@ -9,7 +9,6 @@ const usersRouter = require('./routes/users');
 const db = require('./models/database');
 const redis = require('./utils/redisHelpler');
 
-
 const app = express();
 //global.log = console.log;
 

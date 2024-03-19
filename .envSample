@@ -1,0 +1,23 @@
+NODE_ENV=development
+
+; Port Number Information
+PORT=
+
+; Database Conection Information String
+DATABASE_NAME=
+DATABASE_USER=
+DATABASE_PASSWORD=
+DATABASE_HOST=
+DATABASE_PORT=
+DATABSE_HOST_SLAVE_1=
+DATABSE_HOST_SLAVE_2=
+DIALECT=
+DATABASE_TEST=
+
+; Db logging Descison 
+IS_DB_LOGGING=
+
+; Redis connection information
+REDIS_HOST=
+REDIS_PORT=
+
